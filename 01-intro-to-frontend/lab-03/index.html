@@ -1,38 +1,39 @@
 <!doctype html>
 <html>
   <head>
-    <title>Sebastián</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <div>
-      <h1>Sebastián</h1>
-    </div>
-    <div>
-      <img src="photo.jpg" id="photo" alt="My Photo" />
-    </div>
-    <div>
-      <h2>Favorite Music Artists.</h2>
-      <ul>
-        <li>CA7RIEL & Paco Amoroso</li>
-        <li>Traviss Scott</li>
-        <li>Kudasaibeats</li>
-        <li>Lamp</li>
-        <li>Cigarres After Sex</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Favorite Films</h2>
-      <ol>
-        <li>Perfect Days</li>
-        <li>Project Hail Mary</li>
-        <li>Train Dreams</li>
-        <li>The Truman Show</li>
-        <li>Interstellar</li>
-      </ol>
-    </div>
-    <div>
-      <a href="https://www.meta.com/" target="_blank">My Profile</a>
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <div class="container">
+      <div class="row">
+        <div id="bio" class="col-12 col-lg-6 text-center">
+          <h1>Sebastián</h1>
+          <img src="photo.jpg" class="img-fluid" />
+        </div>
+        <div id="more" class="col-12 col-lg-6">
+          <h2>Favorite Music Artists</h2>
+          <ul>
+            <li>CA7RIEL & Paco Amoroso</li>
+            <li>Traviss Scott</li>
+            <li>Kudasaibeats</li>
+            <li>Lamp</li>
+            <li>Cigarres After Sex</li>
+          </ul>
+          <h2>Favorite Films</h2>
+          <ol>
+            <li>Perfect Days</li>
+            <li>Project Hail Mary</li>
+            <li>Train Dreams</li>
+            <li>The Truman Show</li>
+            <li>Interstellar</li>
+          </ol>
+          <a href="https://www.meta.com/user/123" class="btn btn-primary"
+            >My Meta Profile</a
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
